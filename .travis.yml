@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-  - "stable"
+  - 15
 cache:
   directories:
     - node_modules
+# This is our pipeline
 script:
   - npm run author
 before_deploy:
